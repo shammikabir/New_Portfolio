@@ -1,9 +1,9 @@
-/* Heading-Style */
+/* ...............................Heading-Style............................ */
 
-*{
-    font-family: 'Work Sans';
-    margin: 0;
-    padding: 0;
+* {
+  font-family: "Work Sans";
+  margin: 0;
+  padding: 0;
 }
 
 .header {
@@ -11,10 +11,8 @@
   padding-left: 800px;
   padding-right: 230px;
   text-align: right;
-  height: 100vh;
- 
- 
-  
+  height: 120vh;
+  background-repeat: no-repeat;
 }
 
 .heading-title {
@@ -23,15 +21,8 @@
   font-family: "Work Sans";
   justify-content: right;
   padding-top: 216px;
- 
-  
 }
 
-/* Footer style */
-.footer{
-    background-color: black;
-    color: white;
-}
 
 .heading-description {
   font-weight: 500;
@@ -39,212 +30,214 @@
   color: #444343;
   font-family: "Work Sans";
   line-height: 26px;
-  
-  
+  margin-top: 16px;
 }
 .btn-primary {
   height: 64px;
-  color: #FFFFFF;
+  color: #ffffff;
   border-style: none;
   text-align: right;
   justify-content: right;
 
-  background: #F15B22;
+  background: #f15b22;
   border-radius: 5px;
   font-weight: 600;
   font-size: 20px;
   padding: 18px 35px;
   margin-top: 32px;
- 
-  
 }
 
-/* about styles */
+/* .................................about styles.............................. */
 
-.about{
-   
-    display: flex;
-  }
-  
-  .image{
-   
-    margin: 0px 180px;
-    
-
-
-  }
-
-
-
-.about-title{
-
-    font-weight: 700;
-    font-size: 40px;
-    
-    display: flex;
-
-
-
-
+.about {
+  display: flex;
 }
 
-.about-description{
-    font-weight: 400;
-font-size: 16px;
-    
-
-} 
-.display{
-    padding-right: 279px;
-    padding-top: 178px;
-
-}
-.about-list{
-
-    font-weight: 400;
-font-size: 16px;
-line-height: 26px;
+.image {
+  margin: 0px 180px;
+  margin-top: 94px;
 }
 
-ul{
-    list-style: none;
-    margin-left: -42px;
-}
-/* ul li:before {
-    content:2713;
-    color: green;
-    width: 600px;
-    margin-left: -78px;
-    font-family: 'ionicons';
-    
-}  */
+.about-title {
+  font-weight: 700;
+  font-size: 40px;
 
-.tick-mark{
-    color: rgb(8, 218, 8);
-    /* margin-left: -78px; */
-    width: 24px;
-    
+  display: flex;
+  margin-top: 150px;
+  margin-bottom: 24px;
+  margin-left: -50px;
 }
 
-/* My Plan About */
-
-.plan-title{
-    text-align: center;
-    margin-top: 130px;
-    font-weight: 700;
-font-size: 40px;
+.about-description {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 16px;
+  margin-left: -50px;
+  line-height: 26px;
+}
+.display {
+  padding-right: 279px;
+  padding-top: 178px;
+}
+.about-list {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
 }
 
-.plan-container{
-    display: flex;
-    text-align: center;
-    gap: 80px;
-    margin-left: 150px;
-    margin-top: 55px;
-
+ul {
+  list-style: none;
+  margin-left: -45px;
 }
 
-.plan-about{
-  
-    font-weight: 500;
-font-size: 25px;
-margin-top: 16px;
-color: #737272;
-margin-bottom: 130px;
+
+.tick-mark {
+  color: rgb(8, 218, 8);
+
+  width: 24px;
 }
 
-.plan-name{
-    font-weight: 700;
-font-size: 30px;
-margin-bottom: 16px;
+/*............................................ My Plan About.................. */
 
+.plan-title {
+  text-align: center;
+  margin-top: 130px;
+  font-weight: 700;
+  font-size: 40px;
 }
 
-/* Gradient-image style */
-
-.gradient-image{
-    background-image: url(./images/watch.png);
-    background-repeat: no-repeat;
-    
-    margin-left:200px;
-    margin-bottom: 130px;
-}
-.container{
-    position: relative;
-    color: white;
-
+.plan-container {
+  display: flex;
+  text-align: center;
+  gap: 80px;
+  margin-left: 150px;
+  margin-top: 55px;
 }
 
-/* .Call-me-btn{
-  
-background: #FFFFFF;
-border-radius: 5px;
-color: #F15B22;
-position: absolute;
-top:70%;
-} */
-.call-me-button{
-    position: absolute;
-    background: #FFFFFF;
-    width: 160px;
-border-radius: 5px;
-font-weight: 600;
-font-size: 20px;
-color: #F15B22;
-border-style: none;
-top:65%;
-height: 64px;
-margin-left: 40px;
-text-align: center;
+.plan-about {
+  font-weight: 500;
+  font-size: 25px;
+  margin-top: 16px;
+  color: #737272;
+  margin-bottom: 130px;
 }
 
-.center-left{
-
-    font-weight: 700;
-    font-size: 40px;
-    position: absolute;
-    color: white;
-    text-align: left;
-    margin-left: 40px;
-    margin-right: 400px;
-    top: 15%;
-
-
+.plan-name {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 16px;
 }
 
-/* Footer style */
+/* ......................................Gradient-image style................. */
 
-.footer{
-    background-color: black;
-    color: white;
-    margin:0px;
-    display: flex;
-    
-}
-.footer-title{
-    font-weight: 700;
-font-size: 45px;
-margin-left: 230px;
-margin-top:130px;
-margin-bottom: 16px;
-}
-.footer-description{
-    font-weight: 400;
-font-size: 16px;
-margin-bottom: 32px;
-margin-top:24px;
-margin-left: 230px;
-text-align: left;
-}
-.footer-info-email{
-    padding-left: 230px;
+.gradient-image {
+  background-image: url(./images/watch.png);
+  background-repeat: no-repeat;
 
+  margin-left: 200px;
+  margin-bottom: 130px;
+}
+.container {
+  position: relative;
+  color: white;
 }
 
-.footer-image{
-    margin-top:16px;
-    margin-left: 230px;
-    margin-bottom: 130px;
-    gap:100px;
+.call-me-button {
+  position: absolute;
+  background: #ffffff;
+  width: 160px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #f15b22;
+  border-style: none;
+  top: 55%;
+  height: 64px;
+  margin-left: 40px;
+  text-align: center;
+}
 
+.center-left {
+  font-weight: 700;
+  font-size: 40px;
+  position: absolute;
+  color: white;
+  text-align: left;
+  margin-left: 40px;
+  margin-right: 400px;
+  top: 15%;
+}
+
+/*..................................... Footer style.......................... */
+
+.footer {
+  background-color: black;
+  color: white;
+  margin: 0px;
+  display: flex;
+}
+.footer-title {
+  font-weight: 700;
+  font-size: 45px;
+  margin-left: 230px;
+  margin-top: 130px;
+  margin-bottom: 16px;
+}
+.footer-description {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 32px;
+  margin-top: 24px;
+  margin-left: 230px;
+  text-align: left;
+  line-height: 26px;
+}
+.footer-info {
+  margin-left: 230px;
+  margin-bottom: 20px;
+}
+
+.footer-image {
+  margin-top: 16px;
+  margin-left: 230px;
+  margin-bottom: 130px;
+}
+
+.sub-title {
+  margin-left: 400px;
+  margin-top: 110px;
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 25px;
+  font-style: normal;
+}
+
+.input-design input {
+  margin-left: 400px;
+  width: 40%;
+  margin-bottom: 16px;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 9px;
+  border-color: #ffffff;
+}
+::placeholder {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.subscribe-btn {
+  background: #ffffff;
+  width: 160px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #f15b22;
+  border-style: none;
+  margin-left: 400px;
+
+  height: 64px;
+  margin-bottom: 240px;
 }

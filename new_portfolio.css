@@ -1,0 +1,119 @@
+/* Heading-Style */
+
+*{
+    font-family: 'Work Sans';
+}
+
+.header {
+  background-image: url(./images/banner/banner1.png);
+  padding-left: 800px;
+  padding-right: 230px;
+  text-align: right;
+  height: 120vh;
+ 
+ 
+  
+}
+
+.heading-title {
+  font-weight: 700;
+  font-size: 65px;
+  font-family: "Work Sans";
+  justify-content: right;
+  padding-top: 216px;
+ 
+  
+}
+
+.heading-description {
+  font-weight: 500;
+  font-size: 16px;
+  color: #444343;
+  font-family: "Work Sans";
+  line-height: 26px;
+  
+  
+}
+.btn-primary {
+  height: 64px;
+  color: #FFFFFF;
+  border-style: none;
+  text-align: right;
+  justify-content: right;
+
+  background: #F15B22;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 18px 35px;
+  margin-top: 32px;
+ 
+  
+}
+
+/* about styles */
+
+.about{
+   
+    display: flex;
+  }
+  
+  .image{
+   
+    margin: 0px 180px;
+    
+
+
+  }
+
+
+
+.about-title{
+
+    font-weight: 700;
+    font-size: 40px;
+    
+    display: flex;
+
+
+
+
+}
+
+.about-description{
+    font-weight: 400;
+font-size: 16px;
+    
+
+} 
+.display{
+    padding-right: 279px;
+    padding-top: 178px;
+
+}
+.about-list{
+
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+}
+
+ul{
+    list-style: none;
+    margin-left: -42px;
+}
+/* ul li:before {
+    content:2713;
+    color: green;
+    width: 600px;
+    margin-left: -78px;
+    font-family: 'ionicons';
+    
+}  */
+
+.tick-mark{
+    color: rgb(8, 218, 8);
+    /* margin-left: -78px; */
+    width: 24px;
+    
+}

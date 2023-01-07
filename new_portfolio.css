@@ -2,6 +2,8 @@
 
 *{
     font-family: 'Work Sans';
+    margin: 0;
+    padding: 0;
 }
 
 .header {
@@ -9,7 +11,7 @@
   padding-left: 800px;
   padding-right: 230px;
   text-align: right;
-  height: 120vh;
+  height: 100vh;
  
  
   
@@ -23,6 +25,12 @@
   padding-top: 216px;
  
   
+}
+
+/* Footer style */
+.footer{
+    background-color: black;
+    color: white;
 }
 
 .heading-description {
@@ -116,4 +124,127 @@ ul{
     /* margin-left: -78px; */
     width: 24px;
     
+}
+
+/* My Plan About */
+
+.plan-title{
+    text-align: center;
+    margin-top: 130px;
+    font-weight: 700;
+font-size: 40px;
+}
+
+.plan-container{
+    display: flex;
+    text-align: center;
+    gap: 80px;
+    margin-left: 150px;
+    margin-top: 55px;
+
+}
+
+.plan-about{
+  
+    font-weight: 500;
+font-size: 25px;
+margin-top: 16px;
+color: #737272;
+margin-bottom: 130px;
+}
+
+.plan-name{
+    font-weight: 700;
+font-size: 30px;
+margin-bottom: 16px;
+
+}
+
+/* Gradient-image style */
+
+.gradient-image{
+    background-image: url(./images/watch.png);
+    background-repeat: no-repeat;
+    
+    margin-left:200px;
+    margin-bottom: 130px;
+}
+.container{
+    position: relative;
+    color: white;
+
+}
+
+/* .Call-me-btn{
+  
+background: #FFFFFF;
+border-radius: 5px;
+color: #F15B22;
+position: absolute;
+top:70%;
+} */
+.call-me-button{
+    position: absolute;
+    background: #FFFFFF;
+    width: 160px;
+border-radius: 5px;
+font-weight: 600;
+font-size: 20px;
+color: #F15B22;
+border-style: none;
+top:65%;
+height: 64px;
+margin-left: 40px;
+text-align: center;
+}
+
+.center-left{
+
+    font-weight: 700;
+    font-size: 40px;
+    position: absolute;
+    color: white;
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 400px;
+    top: 15%;
+
+
+}
+
+/* Footer style */
+
+.footer{
+    background-color: black;
+    color: white;
+    margin:0px;
+    display: flex;
+    
+}
+.footer-title{
+    font-weight: 700;
+font-size: 45px;
+margin-left: 230px;
+margin-top:130px;
+margin-bottom: 16px;
+}
+.footer-description{
+    font-weight: 400;
+font-size: 16px;
+margin-bottom: 32px;
+margin-top:24px;
+margin-left: 230px;
+text-align: left;
+}
+.footer-info-email{
+    padding-left: 230px;
+
+}
+
+.footer-image{
+    margin-top:16px;
+    margin-left: 230px;
+    margin-bottom: 130px;
+    gap:100px;
+
 }
